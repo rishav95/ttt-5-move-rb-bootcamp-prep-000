@@ -9,4 +9,6 @@ puts "Welcome to Tic Tac Toe!"
 
 input = gets
 
-input_to_index input
+index = input_to_index input
+
+move board, index
