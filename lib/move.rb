@@ -13,4 +13,6 @@ end
 
 def move board, position, arg = "X"
   board[position] = arg
+  
+  board
 end
